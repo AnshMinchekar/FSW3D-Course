@@ -15,6 +15,7 @@ contract SimpleStorage{
     uint256 public favNumber;
     //Defaults to null or 0 when undefined 
     //By default the visibility is set to private.
+    //There are 4 visibility specifiers: Public, Private, External & Internal
 
     function store(uint256 _favNumber) public{
         favNumber = _favNumber;
